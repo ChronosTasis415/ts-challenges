@@ -24,5 +24,6 @@ module.exports = {
     "prefer-const": "off",
     "no-alert": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/ban-types": "off"
   },
 };

@@ -11,3 +11,6 @@ type cases = [
 
 // @ts-expect-error
 type error = TupleToObject<[[1, 2], {}]>
+
+// 知识点
+// as const  由 array =》 tuple 将array转换为tuple（readonly）
